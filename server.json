@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/agentvet",
+  "description": "Validate LLM-generated tool-call args before execution. Returns a typed error with an LLM-friendly retry hint when the args don't match.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/agentvet-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/agentvet-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/agentvet-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
